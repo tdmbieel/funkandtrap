@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background: url('istockphoto-1471448614-612x612.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.artistas-destaque {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+  font-size: 1.1rem;
+}
+
+.section-bg {
+  background: #111;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section-bg h2 {
+  margin-bottom: 10px;
+}
+
+.tabela-shows {
+  background: #000;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+table {
+  margin: 0 auto;
+  color: #fff;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+}
+
+.artista-banner {
+  text-align: center;
+  color: #fff;
+}
+
+.artista-banner img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.patrocinadores {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.patrocinadores img {
+  height: 100px;
+  margin: 0 20px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+footer div {
+  margin: 5px 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
